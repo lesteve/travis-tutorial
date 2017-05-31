@@ -124,9 +124,9 @@ environment with the right python + numpy version.
 
 # Useful documentation pages
 Some useful documentation pages:
-https://docs.travis-ci.com/user/customizing-the-build
-https://docs.travis-ci.com/user/languages/python/
-https://docs.travis-ci.com/user/ci-environment/
-https://docs.travis-ci.com/user/caching/
-https://docs.travis-ci.com/user/docker/
-https://docs.travis-ci.com/user/common-build-problems/
+* https://docs.travis-ci.com/user/customizing-the-build
+* https://docs.travis-ci.com/user/languages/python/
+* https://docs.travis-ci.com/user/ci-environment/
+* https://docs.travis-ci.com/user/caching/
+* https://docs.travis-ci.com/user/docker/
+* https://docs.travis-ci.com/user/common-build-problems/
