@@ -7,7 +7,7 @@ own repo:
 git clone https://github.com/<your-github-account>/travis-tutorial
 ```
 
-Activate your repo on Travis: https://travis-ci.org/profile/your-github-account/travis-tutorial
+Activate your repo on Travis: https://travis-ci.org/your-github-account/travis-tutorial
 Click on "Activate repo"
 
 # Simple .travis.yml file
