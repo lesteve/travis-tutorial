@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/adumasphi/travis-tutorial.svg?branch=master)](https://travis-ci.org/adumasphi/travis-tutorial)
+
 # Install instructions
 
 Make sure you have a github account:
