@@ -2,7 +2,10 @@ language: python
 
 dist: trusty
 
-cache: pip
+sudo: required
+
+services:
+  - docker
 
 matrix:
   include:
@@ -13,8 +16,8 @@ matrix:
   - python: "3.6"
     env: NUMPY_VERSION=1.12.1
 
-install: pip install numpy==$NUMPY_VERSION
+install:
+  - docker build -t test-container --build-arg numpy_version=$NUMPY_VERSION .
 
 script:
-  - python -c 'import numpy as np; print("numpy:", np.__version__)'
-  - py.test
+  - docker run -v $PWD:$PWD test-container /bin/bash -c "cd $PWD && pytest"
