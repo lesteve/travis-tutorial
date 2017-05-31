@@ -7,7 +7,7 @@ own repo:
 git clone https://github.com/<your-github-account>/travis-tutorial
 ```
 
-Activate your repo on Travis: https://travis-ci.org/profile/<your-github-account>/travis-tutorial
+Activate your repo on Travis: https://travis-ci.org/profile/your-github-account/travis-tutorial
 Click on "Activate repo"
 
 # Simple .travis.yml file
@@ -19,7 +19,7 @@ dist: trusty
 script: py.test
 ```
 
-commit + push. Look at build on https://travis-ci.org/<your-github-account>/travis-tutorial
+commit + push. Look at build on https://travis-ci.org/your-github-account/travis-tutorial
 
 # Broken .travis.yml
 What happens if you have a broken .travis.yml?
