@@ -1,5 +1,6 @@
 language: python
 
-dis: trusty
+dist:
+  trusty
 
 script: py.test
