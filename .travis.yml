@@ -2,4 +2,4 @@ language: python
 
 dist: trusty
 
-script: py.test
+script: py1.test
