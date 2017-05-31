@@ -8,6 +8,7 @@ def test_addition():
 def test_division():
     assert 3./2 == 1.5
 
+
 def partition_wrapper(arr, kth):
     try:
         return np.partition(arr, kth)
